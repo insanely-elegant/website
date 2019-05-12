@@ -3852,7 +3852,7 @@ button:focus {
 }
 
 .xs-inner-banner {
-    min-height: 531px;
+    min-height: 599px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3880,9 +3880,9 @@ button:focus {
 .xs-inner-banner:before {
     left: 0;
     background: #0369d1;
-    background: -webkit-linear-gradient(329deg, #0369d1 0%, #0369d1 25%, #00ecbc 60%);
-    background: -o-linear-gradient(329deg, #0369d1 0%, #0369d1 25%, #00ecbc 60%);
-    background: linear-gradient(121deg, #0369d1 0%, #0369d1 25%, #00ecbc 60%);
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: -o-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343);
     opacity: .85
 }
 
