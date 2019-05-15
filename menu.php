@@ -39,7 +39,7 @@
 				<a href="services.php">SERVICES</a>
 
 		</li>
-		<li><a href="projects.php">PROJECTS</a>
+		<li><a href="work.php">WORK</a>
 
 		</li>
 		<li><a href="#">BLOG</a>

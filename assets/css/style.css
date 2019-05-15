@@ -3880,15 +3880,15 @@ button:focus {
 .xs-inner-banner:before {
     left: 0;
     background: #0369d1;
-    background: -webkit-linear-gradient(to right, #000000, #434343);
-    background: -o-linear-gradient(to right, #000000, #434343);
-    background: linear-gradient(to right, #000000, #434343);
+    background: -webkit-linear-gradient(to right, #227093, white);
+    background: -o-linear-gradient(to right, #227093, white);
+    background: linear-gradient(to right, #227093, white);
     opacity: .85
 }
 
 .xs-inner-banner:after {
     right: 0;
-    background-image: url(../images/banner/inner-banner-overlay.png);
+    /* background-image: url(../images/banner/inner-banner-overlay.png); */
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right top

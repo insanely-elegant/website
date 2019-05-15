@@ -40,10 +40,10 @@ include ('menu.php');
 		<div class="row">
 			<div class="col-md-7 mx-auto">
 				<div class="inner-banner">
-					<h2 class="inner-banner-title">Projects</h2>
+					<h2 class="inner-banner-title">Work</h2>
 					<ul class="breadcumbs list-inline">
 						<li><a href="index.php">Home</a></li>
-						<li>Projects</li>
+						<li>Work</li>
 					</ul>
 				</div>
 			</div>
@@ -56,17 +56,17 @@ include ('menu.php');
 <section class="xs-section-padding">
     <div class="container">
         <div class="row no-gutters agency-filter-wraper">
-            <div class="col-lg-6">
+            <div class="col-lg-9	">
                 <div class="agency-section-title">
-                    <h3 class="main-title">Recent <em>Projects</em></h3>
+                    <h3 class="main-title">Recent <em>Work</em></h3>
                 </div><!-- .agency-section-title END -->
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <div class="filter-button-wraper">
                     <ul id="filters" class="option-set clearfix main-filter" data-option-key="filter">
-                        <li><a href="#" data-option-value="*" class="selected">ALL PROJECTS</a></li>
-                        <li><a href="#" data-option-value=".item1">TYPE OF WORKS</a></li>
-                        <li><a href="#" data-option-value=".item2">TYPE OF CLIENTS</a></li>
+                        <li><a href="#" data-option-value="*" class="selected">ALL WORK</a></li>
+                        <li><a href="#" data-option-value=".item1">FULL STACK WEB & MOBILE APPS</a></li>
+                        <li><a href="#" data-option-value=".item2">DESIGN WORK</a></li>
                     </ul>
                 </div><!-- .filter-button-wraper END -->
             </div>
@@ -75,52 +75,54 @@ include ('menu.php');
             <div class="grid-item item1">
                 <div class="single-cases-card">
                     <div class="card-image">
-                        <img src="assets/images/cases-card/case-card-1.jpg" alt="">
+                        <img src="assets/images/shopping-illustration.png" alt="">
                     </div><!-- .card-image END -->
                     <div class="cases-content">
                         <h3 class="xs-title">
-                            <a href="case-details.html">Software Festivals Stall</a>
+                            <a href="case-details.html">FMCG Shopping App</a>
                         </h3>
-                        <span class="tag">Packaging  / Photography</span>
+                        <span class="tag">Website & Mobile App</span>
                     </div><!-- .cases-content END -->
                 </div><!-- .single-cases-card END -->
             </div><!-- .grid-item END -->
-            <div class="grid-item item2">
+						<div class="grid-item item2">
+								<div class="single-cases-card">
+										<div class="card-image">
+												<img src="assets/images/cases-card/case-card-4.jpg" alt="">
+										</div><!-- .card-image END -->
+										<div class="cases-content">
+												<h3 class="xs-title">
+														<a href="case-details.html">Penn Station Concourse</a>
+												</h3>
+												<span class="tag">Packaging  / Photography</span>
+										</div><!-- .cases-content END -->
+								</div><!-- .single-cases-card END -->
+						</div><!-- .grid-item END -->
+
+						<div class="grid-item item1">
                 <div class="single-cases-card">
                     <div class="card-image">
-                        <img src="assets/images/cases-card/case-card-2.jpg" alt="">
+                        <img src="assets/images/BejuQYI.png" alt="">
                     </div><!-- .card-image END -->
                     <div class="cases-content">
                         <h3 class="xs-title">
-                            <a href="case-details.html">Platform 10: Live Feed</a>
+                            <a href="case-details.html">FMCG Billing App</a>
                         </h3>
-                        <span class="tag">Packaging  / Photography</span>
+                        <span class="tag">Web & Mobile App</span>
                     </div><!-- .cases-content END -->
                 </div><!-- .single-cases-card END -->
             </div><!-- .grid-item END -->
-            <div class="grid-item item1">
+
+						<div class="grid-item item1">
                 <div class="single-cases-card">
                     <div class="card-image">
-                        <img src="assets/images/cases-card/case-card-3.jpg" alt="">
+                        <img src="assets/images/mtVYEyW.png" alt="">
                     </div><!-- .card-image END -->
                     <div class="cases-content">
                         <h3 class="xs-title">
-                            <a href="case-details.html">Fashion Week (AW18)</a>
+                            <a href="case-details.html">Blockchain system for marksheet verification</a>
                         </h3>
-                        <span class="tag">Packaging  / Photography</span>
-                    </div><!-- .cases-content END -->
-                </div><!-- .single-cases-card END -->
-            </div><!-- .grid-item END -->
-            <div class="grid-item item2">
-                <div class="single-cases-card">
-                    <div class="card-image">
-                        <img src="assets/images/cases-card/case-card-4.jpg" alt="">
-                    </div><!-- .card-image END -->
-                    <div class="cases-content">
-                        <h3 class="xs-title">
-                            <a href="case-details.html">Penn Station Concourse</a>
-                        </h3>
-                        <span class="tag">Packaging  / Photography</span>
+                        <span class="tag">Web App</span>
                     </div><!-- .cases-content END -->
                 </div><!-- .single-cases-card END -->
             </div><!-- .grid-item END -->
@@ -131,26 +133,67 @@ include ('menu.php');
                     </div><!-- .card-image END -->
                     <div class="cases-content">
                         <h3 class="xs-title">
-                            <a href="case-details.html">Dubai Poster House</a>
+                            <a href="case-details.html">Design House</a>
                         </h3>
-                        <span class="tag">Packaging  / Photography</span>
+                        <span class="tag">Design  / Photography</span>
                     </div><!-- .cases-content END -->
                 </div><!-- .single-cases-card END -->
             </div><!-- .grid-item END -->
+						<div class="grid-item item2">
+								<div class="single-cases-card">
+										<div class="card-image">
+												<img src="assets/images/W5Az3xT.png" alt="">
+										</div><!-- .card-image END -->
+										<div class="cases-content">
+												<h3 class="xs-title">
+														<a href="case-details.html">Design</a>
+												</h3>
+												<span class="tag">UI/ UX</span>
+										</div><!-- .cases-content END -->
+								</div><!-- .single-cases-card END -->
+						</div><!-- .grid-item END -->
+						<div class="grid-item item1">
+									<div class="single-cases-card">
+											<div class="card-image">
+													<img src="assets/images/W5Az3xT.png" alt="">
+											</div><!-- .card-image END -->
+											<div class="cases-content">
+													<h3 class="xs-title">
+															<a href="case-details.html">Facial Recognition <br/>Attendance system</a>
+													</h3>
+													<span class="tag">UI/ UX</span>
+											</div><!-- .cases-content END -->
+									</div><!-- .single-cases-card END -->
+							</div><!-- .grid-item END -->
             <div class="grid-item item1">
                 <div class="single-cases-card">
                     <div class="card-image">
-                        <img src="assets/images/cases-card/case-card-6.jpg" alt="">
+                        <img src="assets/images/ovKmCWU.png" alt="">
                     </div><!-- .card-image END -->
                     <div class="cases-content">
                         <h3 class="xs-title">
-                            <a href="case-details.html">The Atlantic Theater</a>
+                            <a href="case-details.html">LsLifestyles.co</a>
                         </h3>
-                        <span class="tag">Packaging  / Photography</span>
+                        <span class="tag">E-commerce:Website & Mobile App</span>
                     </div><!-- .cases-content END -->
                 </div><!-- .single-cases-card END -->
             </div><!-- .grid-item END -->
-        </div><!-- .cases-grid END -->
+
+
+					<div class="grid-item item2">
+								<div class="single-cases-card">
+										<div class="card-image">
+												<img src="assets/images/single-leaf-2.png" alt="">
+										</div><!-- .card-image END -->
+										<div class="cases-content">
+												<h3 class="xs-title">
+														<a href="case-details.html">Design system</a>
+												</h3>
+												<span class="tag">UI/ UX</span>
+										</div><!-- .cases-content END -->
+								</div><!-- .single-cases-card END -->
+						</div><!-- .grid-item END -->
+		</div><!-- .cases-grid END -->
     </div><!-- .container END -->
 </section><!-- agency portfolio masonry section end -->
 
@@ -279,69 +322,11 @@ include ('menu.php');
 </div>    <!-- END sidebar widget item -->    <!-- END offset cart strart -->
 
 		<!-- footer section start -->
-		<footer class="xs-footer-section">
-			<div class="footer-top-area">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-lg-3">
-							<div class="footer-widget">
-								<div class="footer-logo-wraper">
-									<a href="index-2.html" class="footer-logo">
-										<img src="assets/images/footer-logo.png" alt="footer logo">
-									</a>
-								</div>
-								<p><a href="https://www.google.com/maps/place/London,+UK/@51.528308,-0.3817812,10z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5073509!4d-0.1277583" target="_blank">5272 Lyngate Ct Burke, VA <br> 2015-1688</a> </p>
-								<p>Tel.:<a href="tel:+1%20998%20150%30%2020"> +1 998 150 30 20</a> <br> Mail : <a href="mailto:info@agencify.com">info@agencify.com</a></p>
-							</div><!-- .footer-widget END -->
-						</div>
-						<div class="col-md-6 col-lg-2">
-							<div class="footer-widget">
-								<h4 class="widget-title">About</h4>
-								<ul class="xs-list">
-									<li><a href="about.html">About us</a></li>
-									<li><a href="contact.html">Contact Us</a></li>
-									<li><a href="service.html">Services</a></li>
-									<li><a href="portfolio.html">Portfolio</a></li>
-								</ul><!-- .xs-list END -->
-							</div><!-- .footer-widget END -->
-						</div>
-						<div class="col-md-6 col-lg-4">
-							<div class="footer-widget">
-								<h4 class="widget-title">Instagram</h4>
-								<div class="insta-feed-wraper">
-									<ul class="insta-feed"></ul>
-								</div><!-- .insta-feed-wraper END -->
-							</div><!-- .footer-widget END -->
-						</div>
-						<div class="col-md-6 col-lg-3">
-							<div class="footer-widget">
-								<h4 class="widget-title">Subscribe</h4>
-								<form action="#" class="newsletter-form subscribe-form" method="POST">
-									<input type="email" name="email" id="sub-input-one" placeholder="Your Email" class="form-control">
-									<label for="sub-input-one"></label>
-									<button type="submit" class="send-button"><i class="icon icon-paper-plane"></i></button>
-								</form><!-- .newsletter-form END -->
-								<ul class="social-list">
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-									<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								</ul><!-- .social-list END -->
-							</div><!-- .footer-widget END -->
-						</div>
-					</div><!-- .row END -->
-				</div><!-- .container END -->
-			</div><!-- .footer-top-area END -->
-			<div class="footer-bottom-area">
-				<div class="container">
-					<div class="copyright-section text-center">
-						<p>Copyright &copy; 2018 <a href="https://themeforest.net/user/xpeedstudio/portfolio">Agencify</a> Theme</p>
-					</div><!-- .copyright-section END -->
-				</div>
-			</div><!-- .footer-bottom-area END -->
-		</footer>
+		<?php
+		include ('footer.php');
+		 ?>
 		<!-- footer section end -->
+
 		<!-- js file start -->
 		<?php
 		include 'footerjs.php';
