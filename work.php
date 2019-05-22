@@ -79,7 +79,7 @@ include ('menu.php');
                     </div><!-- .card-image END -->
                     <div class="cases-content">
                         <h3 class="xs-title">
-                            <a href="case-details.html">FMCG Shopping App</a>
+                            <a href="#">FMCG Shopping App</a>
                         </h3>
                         <span class="tag">Website & Mobile App</span>
                     </div><!-- .cases-content END -->
@@ -92,7 +92,7 @@ include ('menu.php');
 										</div><!-- .card-image END -->
 										<div class="cases-content">
 												<h3 class="xs-title">
-														<a href="case-details.html">Penn Station Concourse</a>
+														<a href="#">Penn Station Concourse</a>
 												</h3>
 												<span class="tag">Packaging  / Photography</span>
 										</div><!-- .cases-content END -->
@@ -106,7 +106,7 @@ include ('menu.php');
                     </div><!-- .card-image END -->
                     <div class="cases-content">
                         <h3 class="xs-title">
-                            <a href="case-details.html">FMCG Billing App</a>
+                            <a href="#">FMCG Billing App</a>
                         </h3>
                         <span class="tag">Web & Mobile App</span>
                     </div><!-- .cases-content END -->
@@ -120,7 +120,7 @@ include ('menu.php');
                     </div><!-- .card-image END -->
                     <div class="cases-content">
                         <h3 class="xs-title">
-                            <a href="case-details.html">Blockchain system for marksheet verification</a>
+                            <a href="#">Blockchain system for marksheet verification</a>
                         </h3>
                         <span class="tag">Web App</span>
                     </div><!-- .cases-content END -->
@@ -133,9 +133,9 @@ include ('menu.php');
                     </div><!-- .card-image END -->
                     <div class="cases-content">
                         <h3 class="xs-title">
-                            <a href="case-details.html">Design House</a>
+                            <a href="#">Insurance using Blockchain</a>
                         </h3>
-                        <span class="tag">Design  / Photography</span>
+                        <span class="tag">Blockchain  / Web</span>
                     </div><!-- .cases-content END -->
                 </div><!-- .single-cases-card END -->
             </div><!-- .grid-item END -->
@@ -146,20 +146,20 @@ include ('menu.php');
 										</div><!-- .card-image END -->
 										<div class="cases-content">
 												<h3 class="xs-title">
-														<a href="case-details.html">Design</a>
+														<a href="#">Agency Website</a>
 												</h3>
-												<span class="tag">UI/ UX</span>
+												<span class="tag">Logo / Web Design</span>
 										</div><!-- .cases-content END -->
 								</div><!-- .single-cases-card END -->
 						</div><!-- .grid-item END -->
 						<div class="grid-item item1">
 									<div class="single-cases-card">
 											<div class="card-image">
-													<img src="assets/images/W5Az3xT.png" alt="">
+													<img src="assets/images/face_recognition_1.jpg" alt="">
 											</div><!-- .card-image END -->
 											<div class="cases-content">
 													<h3 class="xs-title">
-															<a href="case-details.html">Facial Recognition <br/>Attendance system</a>
+															<a href="#">Facial Recognition <br/>Attendance system</a>
 													</h3>
 													<span class="tag">UI/ UX</span>
 											</div><!-- .cases-content END -->
@@ -172,7 +172,7 @@ include ('menu.php');
                     </div><!-- .card-image END -->
                     <div class="cases-content">
                         <h3 class="xs-title">
-                            <a href="case-details.html">LsLifestyles.co</a>
+                            <a href="#">LsLifestyles.co</a>
                         </h3>
                         <span class="tag">E-commerce:Website & Mobile App</span>
                     </div><!-- .cases-content END -->
@@ -187,7 +187,7 @@ include ('menu.php');
 										</div><!-- .card-image END -->
 										<div class="cases-content">
 												<h3 class="xs-title">
-														<a href="case-details.html">Design system</a>
+														<a href="#">Design Frameworks</a>
 												</h3>
 												<span class="tag">UI/ UX</span>
 										</div><!-- .cases-content END -->
@@ -307,7 +307,7 @@ include ('menu.php');
                     </form>
                 </div>
                 <ul class="social-list version-2">
-                    <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+	                    <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
                     <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>

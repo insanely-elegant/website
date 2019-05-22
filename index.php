@@ -39,8 +39,8 @@ include ('menu.php');
     <div class="container">
         <div class="row">
             <div class="col-lg-6 align-self-center">
-                <div class="agency-banner-content">
-									<h3 class="banner-title">We create Websites that users love.</h3>
+                <div class="agency-banner-content"><br/>
+									<h3 class="banner-title">We create Websites <br/>that users love.</h3>
 									<p class="banner-desc">We are a team of passionate full stack developers & UX UI designers <br/> helping businesses of all sizes launch their next project.</p>
 									<!-- <h2 class="banner-sub-title">HELLO! I’M</h2>
 									<h3 class="banner-title">Mark Anderson</h3>
@@ -52,6 +52,14 @@ include ('menu.php');
                     <div class="banner-paint">
                         <!-- <img src="assets/images/banner/paint-2.png" alt=""> -->
                     </div>
+										<style>
+										@media (max-width:629px) {
+  section#portfolio-home {
+    background-image: none!important;
+		}
+  }
+
+										</style>
                 </div>
             </div>
             <div class="col-lg-6 align-self-end">
@@ -74,36 +82,7 @@ include ('menu.php');
     </div> -->
 </section><!-- end agency banner section -->
 
-<!-- portfolio about section -->
-<section class="xs-section-padding shuffle-title waypoint-tigger" id="portfolio-about">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="portfolio-about">
-                    <div class="shuffle-letter-title-wraper">
-                        <h2 class="shuufle-letter-title">ABOUT</h2>
-                    </div>
-                    <h2 class="subtitle">BRIEFLY ABOUT US</h2>
-                    <h3 class="title">Code is poetry.</h3>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="portfolio-text">
-                    <p class="drop-caps">Insanely Elegant named Duden flows by their place and supplies it with the</p>
-                    <p>which roasted parts of sentences fly into your mouth. ven the all-powerful Pointing has no control about the blind texts it is an almost northographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far</p>
-                </div>
-            </div>
-						<div class="col-lg-4 col-md-6">
-                <div class="portfolio-about">
-									<div class="text-center">
-											<button type="submit" class="long-arrow-btn version-black" id="xs_contact_submit">Show Case Studies <span
-															class="long-arrow"></span></button>
-									</div>
-                </div>
-            </div>
-        </div><!-- .row END -->
-    </div><!-- .container END -->
-</section><!-- end portfolio about section -->
+
 
 
 <!-- footer section start -->
