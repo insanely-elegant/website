@@ -1,12 +1,48 @@
+<?php
+$result="";
+$result2="";
+if(isset($_POST['submit'])) {
+    require 'phpmailer\PHPMailerAutoload.php';
+    $mail = new PHPMailer;
+    $mail->isSMTP();
+    $mail->Host='smtp.gmail.com';
+    $mail->Port=587;
+    $mail->SMTPAuth=true;
+    $mail->SMTPSecure;
+    $mail->Username='insanewebdevs@gmail.com';
+    $mail->Password='Bullshit9895'; 
+    $mail->setFrom($_POST['email']);
+    $mail->addAddress('insanewebdevs@gmail.com');
+    $mail->addReplyTo($_POST['email']);
+
+    $mail->isHTML(true);
+    $mail->Subject='From Contact Form : ' .$_POST['subject'];
+    $mail->Body='<h2 align=center>Name  :  '.$_POST['firstname'] .$_POST['lastname'] .'<br>Email  :  '.$_POST['email']. '<br>
+    Message  :  '.$_POST['message']. '</h2>';
+
+    if(!$mail->send()){
+        $result="Something went wrong! Try Again.";
+    }
+    else{
+        $result2="Thanks " .$_POST['firstname']." for contacting us. We'll get back to you soon!";
+    }
+    
+    
+}
+
+?>
+
+
+
 <!-- get_header('Page Name','Title')-->
 <!doctype html>
 <html class="no-js" lang="zxx">
 	
-<!-- Mirrored from html.xpeedstudio.com/agmycoo/contact-v2.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 11 May 2019 12:06:47 GMT -->
+
 <head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>Contact Us</title>
+		<title>Contact Us - Insanely Elegant</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<?php
@@ -67,13 +103,14 @@
                         <li>
                             <strong>Address</strong>
                             <div class="list-content">
-                               <a href=""> Kormangala Bengaluru</a>
+                               <a href="">12th Cross, BTM 1st Stage, Bengaluru
+                                </a>
                             </div>
                         </li>
                         <li>
                             <strong>Phone</strong>
                             <div class="list-content">
-                                <a href="#">+91 123-456-789</a>
+                                <a href="#">+91 636-236-8425</a>
                             </div>
                         </li>
                         <li>
@@ -111,7 +148,7 @@
         <div class="row">
             <div class="col-lg-8 mx-auto">
                 <div class="agency-section-title text-center style4">
-                    <h4 class="main-title">Have an Idea?</h4>
+                    <h4 class="main-title">Have an Idea? Talk to Us</h4>
                     <p>Don't worry we would never sell your information, We respect your privacy.</p>
                     <span class="line"></span>
                 </div>
@@ -134,11 +171,11 @@
                                 <input type="number" placeholder="Phone Number *" name="phonenumber" id="xs_contact_number" class="form-control">
                             </div>
                             <div class="col-lg-6">
-                                <input type="email" placeholder="Email *" name="lastname" id="xs_contact_email" class="form-control">
+                                <input type="email" placeholder="Email *" name="email" id="xs_contact_email" class="form-control">
                             </div>
                         </div>
                         <input type="text" placeholder="Subject *" name="subject" id="xs_contact_subject" class="form-control">
-                        <textarea name="massage" id="x_contact_massage" placeholder="Your Message... *" class="form-control" cols="30" rows="10"></textarea>
+                        <textarea name="message" id="x_contact_massage" placeholder="Your Message... *" class="form-control" cols="30" rows="10"></textarea>
                         <div class="btn-wraper">
                             <input type="submit" name="submit" id="xs_contact_submit" class="btn btn-primary" value="Submit">
                         </div>
@@ -146,9 +183,16 @@
                 </div>
             </div>
         </div><!-- .row END -->
+        <div class="alert alert-success">
+    <?= $result2; ?>
+  </div>
+  <div class="alert alert-danger">
+  <?= $result; ?>
+  </div>
     </div><!-- .container END -->
 </div><!-- agency contact section end -->
-		<!-- footer section start -->
+        <!-- footer section start -->
+
         <?php
         include ('footer.php');
         ?>
