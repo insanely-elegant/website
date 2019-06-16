@@ -68,8 +68,7 @@
                         <h4 class="main-title">We're a <em>Design Studio</em></h4>
                         <span class="watermark-title">IE</span>
                     </div><!-- .agency-section-title END -->
-                    <p>An idea in the moment has sparked a global movement.
-And we’re just getting started.</p>
+                    <p>An idea that started to help businesses throughout their troubled start to a successful continous growth. We're here for the long term and we’re just getting started.</p>
                     <a href="work.php" class="btn btn-primary">OUR SERVICES</a>
                 </div><!-- .agency-intro END -->
             </div>

@@ -35,10 +35,7 @@
 
 		</li>
 		<li><a href="about.php">ABOUT</a></li>
-		<li>
-				<a href="services.php">SERVICES</a>
-
-		</li>
+		
 		<li><a href="work.php">WORK</a>
 
 		</li>
@@ -63,23 +60,23 @@
                 <h2 class="offcanvas-title">GET IN TOUCH</h2>
                 <ul class="offcanvas-list-widget">
                     <li>
-                        <p><i class="icon icon-map-marker2"></i><a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom"
+                        <p><i class="icon icon-map-marker2"></i><a href="https://goo.gl/maps/WXwC4bn2R1Svi88CA"
                                 target="_blank">12th Cross, BTM 1st Stage,<br> Bengaluru</a></p>
                     </li>
                     <li>
                         <p><i class="icon icon-phone-call3"></i><a href="tel:+91%636(236)%8425">+91 636-236-8425</a></p>
                     </li>
                     <li>
-                        <p><i class="icon icon-envelope4"></i><a href="mailto:info@insanelyelegant.com">hello@insanelyelegant.com</a></p>
+                        <p><i class="icon icon-envelope4"></i><a href="mailto:hello@insanelyelegant.com">hello@insanelyelegant.com</a></p>
                     </li>
                 </ul>
-                <h2 class="offcanvas-title">GET SOCIAL TOGETHER</h2>
-                <ul class="social-list version-4">
-                    <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+              <!--   <h2 class="offcanvas-title">GET SOCIAL TOGETHER</h2>  -->
+              <!--  <ul class="social-list version-4">
+                    <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>-->
                     <!-- <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li> -->
                     <!-- <li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li> -->
-                    <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
-                </ul>
+                  <!--  <li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+                </ul>-->
             </div>
         </div>
 		</div>

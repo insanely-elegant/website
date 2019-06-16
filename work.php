@@ -85,19 +85,7 @@ include ('menu.php');
                     </div><!-- .cases-content END -->
                 </div><!-- .single-cases-card END -->
             </div><!-- .grid-item END -->
-						<div class="grid-item item2">
-								<div class="single-cases-card">
-										<div class="card-image">
-												<img src="assets/images/cases-card/case-card-4.jpg" alt="">
-										</div><!-- .card-image END -->
-										<div class="cases-content">
-												<h3 class="xs-title">
-														<a href="#">Penn Station Concourse</a>
-												</h3>
-												<span class="tag">Packaging  / Photography</span>
-										</div><!-- .cases-content END -->
-								</div><!-- .single-cases-card END -->
-						</div><!-- .grid-item END -->
+						
 
 						<div class="grid-item item1">
                 <div class="single-cases-card">
@@ -126,19 +114,7 @@ include ('menu.php');
                     </div><!-- .cases-content END -->
                 </div><!-- .single-cases-card END -->
             </div><!-- .grid-item END -->
-            <div class="grid-item item2">
-                <div class="single-cases-card">
-                    <div class="card-image">
-                        <img src="assets/images/cases-card/case-card-5.jpg" alt="">
-                    </div><!-- .card-image END -->
-                    <div class="cases-content">
-                        <h3 class="xs-title">
-                            <a href="#">Insurance using Blockchain</a>
-                        </h3>
-                        <span class="tag">Blockchain  / Web</span>
-                    </div><!-- .cases-content END -->
-                </div><!-- .single-cases-card END -->
-            </div><!-- .grid-item END -->
+            
 						<div class="grid-item item2">
 								<div class="single-cases-card">
 										<div class="card-image">
@@ -180,19 +156,7 @@ include ('menu.php');
             </div><!-- .grid-item END -->
 
 
-					<div class="grid-item item2">
-								<div class="single-cases-card">
-										<div class="card-image">
-												<img src="assets/images/single-leaf-2.png" alt="">
-										</div><!-- .card-image END -->
-										<div class="cases-content">
-												<h3 class="xs-title">
-														<a href="#">Design Frameworks</a>
-												</h3>
-												<span class="tag">UI/ UX</span>
-										</div><!-- .cases-content END -->
-								</div><!-- .single-cases-card END -->
-						</div><!-- .grid-item END -->
+					
 		</div><!-- .cases-grid END -->
     </div><!-- .container END -->
 </section><!-- agency portfolio masonry section end -->
